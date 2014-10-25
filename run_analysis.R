@@ -15,7 +15,8 @@
 # - 'train/X_train.txt': Training set.
 # - 'train/y_train.txt': Training labels.
 # - 'test/X_test.txt': Test set.
-# - 'test/y_test.txt': Test labels.
+# - 'test/y_test.txt': Test labels.exit
+
 path_info <- "./UCI HAR Dataset/"
 path_train <- "./UCI HAR Dataset/train/"
 path_test <- "./UCI HAR Dataset/test/"
@@ -75,8 +76,7 @@ cnames <- gsub("\\)", "", cnames); cnames <- gsub("\\(", "", cnames);
 cnames <- gsub("-", "_", cnames); cnames <- gsub(" ", "", cnames)
 cnames <- gsub(",", "", cnames)
 names(data_subset) <- cnames
-all(colSums(is.na(data_subset))==0)      # check no NA
-write.table(data_subset, file="data_subset.txt", row.name=FALSE)
+# write.table(data_subset, file="data_subset.txt", row.name=FALSE)
 
 
 # 5. From the data set in step 4, creates a second, independent tidy data set 
@@ -93,3 +93,5 @@ write.table(result_means, file="resulting_averages.txt", row.name=FALSE)
 # 2. Each different observation of that variable should be in a different row
 # 3. There should be one table for each "kind" of variable
 # 4. If you have multiple tables, they should include a column that allows them to be linked
+
+
