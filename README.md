@@ -48,10 +48,10 @@ run_analysis.R does the following:
 > Merge y_train and y_test into y_total, add corresponding activity label from activity_labels to activity number in y_total  
 > Merge subject_train and subject_test into subject_total, add column labels  
 > combine all variables for each observation into one row in one table dataset_total.  
+  
+**4. Extract only the measurements on the mean and standard deviation for each measurement.**  
 
-** 4. Extract only the measurements on the mean and standard deviation for each measurement.**  
-
-** 5. From the data set in step 4, creates a second, independent tidy data set 
+**5. From the data set in step 4, creates a second, independent tidy data set 
    with the average of each variable for each activity and each subject.**   
    
 ** 6. Write data to text file:** `r write.table(result_means, file="resulting_averages.txt", row.name=FALSE)`
