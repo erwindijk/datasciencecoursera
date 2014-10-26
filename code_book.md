@@ -28,9 +28,9 @@ consists of following:
 - Combined datasets for  X_train and X_test, y_train and y_test, subject_train and subject_test
 - Additional column role: role = 1 for train and role = 2 for test
 > Description of variables in columns:
-- person
-- activity
-- role
+- person:   the number that refers to subject in the test-train group 1-30
+- activity: short descriptive label of which of the six activities person (subject) is engaged in
+- role:     1 = subject is in train group, 2 = subject is in test group
 - 86 columns with average values per person (subject) and per activity for all mean and stdev values of the features
 
 **Short description from feature_info.txt**
