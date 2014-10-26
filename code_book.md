@@ -21,6 +21,7 @@ From original dataset:
 - 'train/y_train.txt': Training labels.  
 - 'test/X_test.txt': Test set.  
 - 'test/y_test.txt': Test labels.exit   
+
 The resulting
 [dataset](https://s3.amazonaws.com/coursera-uploads/user-8568ffbbb1fd8708f584ae4b/972586/asst-3/1c4712f15c7011e49029c1bf39dd5a90.txt) 
 consists of following:  
