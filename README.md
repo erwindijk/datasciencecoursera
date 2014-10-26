@@ -54,6 +54,6 @@ run_analysis.R does the following:
 **5. From the data set in step 4, creates a second, independent tidy data set 
    with the average of each variable for each activity and each subject.**   
    
-** 6. Write data to text file:** `r write.table(result_means, file="resulting_averages.txt", row.name=FALSE)`
+**6. Write data to text file:** `r write.table(result_means, file="resulting_averages.txt", row.name=FALSE)`
 
 
