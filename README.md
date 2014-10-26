@@ -22,8 +22,8 @@ run_analysis.R does the following:
 
 **Get the dataset, store it and read it in**   
 
-Get dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip    
-Store the folder "./UCI HAR Dataset/" in the Zip file including subdirectories in your working directory:   
+> Get dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip    
+> Store the folder "./UCI HAR Dataset/" in the Zip file including subdirectories in your working directory:   
 - 'features.txt': List of all features.  
 - 'activity_labels.txt': Links the class labels with their activity name.  
 - 'train/X_train.txt': Training set.  
