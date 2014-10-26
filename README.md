@@ -6,7 +6,7 @@ date: "Sunday, October 26, 2014"
 
 ### COURSERA PROJECT - GETTING AND CLEANING DATA  
 R script [run_analysis.R](https://github.com/erwindijk/datasciencecoursera/blob/master/run_analysis.R)  
-Code book: <insert link here>
+Code book: [code_book.md](https://github.com/erwindijk/datasciencecoursera/blob/master/code_book.md) 
 
 
 **Summary**
