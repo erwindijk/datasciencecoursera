@@ -7,6 +7,7 @@ date: "Sunday, October 26, 2014"
 ### COURSERA PROJECT - GETTING AND CLEANING DATA  
 R script [run_analysis.R](https://github.com/erwindijk/datasciencecoursera/blob/master/run_analysis.R)  
 Raw dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Tidy dataset: {course dataset submission(https://s3.amazonaws.com/coursera-uploads/user-8568ffbbb1fd8708f584ae4b/972586/asst-3/1c4712f15c7011e49029c1bf39dd5a90.txt) 
 
 
 Information about the variables (including units!) in the data set not contained in the tidy data
