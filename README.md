@@ -9,8 +9,6 @@ R script run_analysis.R https://github.com/erwindijk/datasciencecoursera/blob/ma
 Cookbook: <insert link here>
 
 
-R script run_analysis.R <insert link here>  
-
 **Summary**
 ```
 run_analysis.R does the following:   
